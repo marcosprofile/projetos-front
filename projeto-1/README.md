@@ -4,4 +4,4 @@
 >Protótipo encontrado na comunidade do figma
 
 # Projeto
-![image](https://user-images.githubusercontent.com/86635292/212524019-571b3543-7090-444e-88ab-90c73e6f02ae.png)
+![image](https://user-images.githubusercontent.com/86635292/212524712-c9b01939-73a6-4fb5-9f5c-b6881d02bebb.png)
