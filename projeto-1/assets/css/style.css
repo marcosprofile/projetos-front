@@ -480,20 +480,26 @@ main {
 
 .user-group img:nth-child(1) {
     position: absolute;
-    margin-left: -58px;
+    margin-left: -70px;
     z-index: 0;
+    border-radius: 30px;
+    border: 3px solid #F7F9FB;
 }
 
 .user-group img:nth-child(2) {
     position: absolute;
-    margin-left: -43px;
+    margin-left: -50px;
     z-index: 0;
+    border-radius: 30px;
+    border: 3px solid #F7F9FB;
 }
 
 .user-group .total:nth-child(3) {
     position: absolute;
-    margin-left: -28px;
+    margin-left: -32px;
     z-index: 2;
+    border-radius: 30px;
+    border: 3px solid #F7F9FB;
 }
 
 .total {
@@ -551,6 +557,29 @@ main {
     width: 560px;
     overflow: hidden;
     text-overflow: ellipsis;
+    color: var(--primary-color);
+}
+
+.files {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    border-radius: 8px;
+    padding: 4px 8px;
+}
+
+.file {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    padding: 4px 8px;
+}
+
+#message {
+    font-size: 11px;
+    color: var(--opacity4-color);
 }
 
 .button {
@@ -675,7 +704,7 @@ tbody tr td {
     display: flex;
     flex-direction: column;
     gap: 24px;
-    width: 280px;
+    width: 120%;
     border-left: 1px solid var(--opacity1-color);
     padding: 22px 20px;
     overflow: hidden;
@@ -710,32 +739,12 @@ tbody tr td {
     transition: all 0.2s;
 }
 
-.files {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 8px;
-    border-radius: 8px;
-    padding: 4px 8px;
-}
-
-.file {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    border-radius: 8px;
-    padding: 4px 8px;
-}
-
-#message {
-    font-size: 11px;
-    color: var(--opacity4-color);
-}
-
 .list-notifications p, .list-activities p, .list-contacts p {
     font-size: 14px;
     white-space: nowrap;
     width: 158px;
     overflow: hidden;
     text-overflow: ellipsis;
+    color: var(--primary-color);
 }
+
